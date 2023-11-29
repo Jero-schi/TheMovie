@@ -1,0 +1,19 @@
+{
+  "name": "themovie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Jero-schi/TheMovie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jero-schi/TheMovie/issues"
+  },
+  "homepage": "https://github.com/Jero-schi/TheMovie#readme"
+}
