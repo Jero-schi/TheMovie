@@ -1,3 +1,84 @@
+* {
+    font-family: 'Noto Serif', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 4px;
+}
+
 body {
-    background-color: blueviolet;
+    height: 100%;
+    width: 100vw;
+
+    padding: 24px;
+    
+    background: linear-gradient(180deg, #590D22 0%, #161A1D 45%);
+
+    color: white;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 12rem;
+}
+
+header {
+    width: 100%;
+    height: 30vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+#desplegables {
+    width: 100%;
+
+    margin-bottom: 24px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.filtros {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.filtros p {
+    color: #FF8FA3;
+    font-size: 4rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+#imagenes {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+#imagenes img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#busqueda {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    background-color: #590D22;
+
+    position: fixed;
+    bottom: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
