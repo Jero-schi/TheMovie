@@ -21,7 +21,7 @@ h1 {
 }
 
 #home {
-    display: none;
+    /* display: none; */
     padding: 24px;
 }
 
@@ -89,7 +89,8 @@ header {
 #movie-info {
     height: 100vh;
 
-    display: flex;
+    display: none;
+    /* display: flex; */
     flex-direction: column;
 
     background-color: #161A1D;
@@ -137,6 +138,30 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section-filtros {
+    display: none;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: rgba(22, 26, 29, 0.90);
+
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.section-filtros h2 {
+    font-size: 9rem;
+    font-weight: 300;
 }
 
 
